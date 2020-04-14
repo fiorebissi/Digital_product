@@ -61,16 +61,17 @@ nav li a:hover{
 /* -------------------------------------------  PRODUCTOS */
 .products{
     background-image: url("../images/curve.png");
-    max-height: 20px;
-    background-size: cover;
+    padding: 15%;
     background-position: center top;
-    padding: 20%;
+    background-repeat: no-repeat;
     display: flex;
+    height: 95px;
+    background-size: cover;
 }
 
 .product{
     padding: var(--space);
-    margin-top: -240px;
+    margin-top: -226px;
 }
 .product .content{
     background-color: var(--white-color);
